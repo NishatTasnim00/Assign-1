@@ -3,7 +3,7 @@
     margin: 0;
 }
 header{
-  background-image: url("../images/banner/banner1.png");
+  background-image: url("..images/banner/banner1.png");
   background-repeat: no-repeat;
   height: 700px;
   width: 100%;
@@ -20,11 +20,6 @@ header{
     color: #151414;
     font-size: 50px;
     font-weight: 700;
-    /* padding-top: 216px;
-    padding-right: 230px;
-    padding-left: 845px; */
-
-   
 }
 .banner-description{
     color: #444343;
@@ -142,13 +137,13 @@ li{
 footer{
     color: #F8F8F8;
     width: 100%;
-    height: 500px;
+    height: 480px;
     background-color: #151414;
 }
 .footer-container{
     display: flex;
     gap: 300px;
-    padding: 100px 150px;
+    padding: 80px 150px;
 }
 .future-title{
     font-weight: 700;
@@ -204,6 +199,9 @@ footer{
     border-radius: 7px;
     border: none;
     padding: 15px 30px;
-    
-    
+}
+.foot{
+    height: 70px;
+    width: 100%;
+    background-color: #F15B22;
 }
