@@ -1,18 +1,18 @@
 *{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans';
     margin: 0;
 }
 header{
   background-image: url("../images/banner/banner1.png");
   background-repeat: no-repeat;
-  height: 800px;
+  height: 700px;
   width: 100%;
   background-size: cover;
   
 }
 .banner{
     text-align: right;
-    padding: 230px 150px 366px 845px;
+    padding: 200px 200px 366px 795px;
     
     
 }
@@ -147,7 +147,63 @@ footer{
 }
 .footer-container{
     display: flex;
-    justify-content: center;
     gap: 300px;
     padding: 100px 150px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 5px;
+}
+
+.future-descripton{
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.email{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0;
+}
+.phone{
+    font-weight: 400;
+    font-size: 16px;
+}
+.social-media{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.subscribe{
+    margin-right: 80px;
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 25px;
+    /* padding-right: 150px; */
+    padding-bottom: 30px;
+
+}
+#your-email{
+    font-size: 18px;
+    padding: 10px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    background-color:  #151414;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 20px;
+    color: #F8F8F8;
+}
+#btn-sub{
+    background: #FFFFFF;
+    color: #F15B22 ;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+    padding: 15px 30px;
+    
+    
 }
